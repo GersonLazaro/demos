@@ -21,6 +21,7 @@ body {
   justify-content: center;
   margin: 48px auto;
   max-width: 600px;
+  padding: 0 24px;
   width: 100%;
 }
 
