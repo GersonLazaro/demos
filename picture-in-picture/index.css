@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  background-color: #bdc3c7;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 48px auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.title {
+  transition: all .5s ease-in-out;
+}
+
+.video {
+  width: 100%;
+}
+
+.copyright {
+  font-size: 12px;
+  font-style: italic;
+  transition: all .5s ease-in-out;
+}
+
+.copyright a {
+  color: #000;
+  transition: all .5s ease-in-out;
+}
+
+.button, .button:hover, 
+.button:active, 
+.button:focus {
+  background-color: #151515;
+  border-radius: 6px;
+  border: 1px solid #151515;
+  color: #bdc3c7;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 24px;
+  padding: 12px 24px;
+  transition: all .5s ease-in-out;
+}
+
+.picture-in-picture {
+  background-color: #151515;
+}
+
+.picture-in-picture .button {
+  background-color: #bdc3c7;
+  color: #151515;
+}
+
+.picture-in-picture .title, 
+.picture-in-picture .copyright, 
+.picture-in-picture .copyright a {
+  color: #bdc3c7;
+}
