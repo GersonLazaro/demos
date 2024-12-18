@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  transition: all .3s ease-in-out
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #FEFEFE;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.demo__container {
+  margin: 24px;
+  max-width: 440px;
+  padding: 24px;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
+.demo__links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.demo__link,
+.demo__button {
+  text-decoration: none;
+  display: block;
+  border: 1px solid #222;
+  padding: 8px;
+  border-radius: 6px;
+  color: #222;
+  text-align: center;
+  background-color: #EDEDED;
+}
+
+.demo__link:hover,
+.demo__button:hover {
+  background-color: #AAA;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.demo__button {
+  width: 100%;
+  cursor: pointer;
+  padding: 16px;
+}
+
+/* DARK THEME */
+.dark {
+  background-color: #222;
+}
+
+.dark .demo__container {
+  border-color: #FEFEFE;
+}
+
+.dark .demo__title,
+.dark .demo__link,
+.dark .demo__description,
+.dark .demo__message,
+.dark .demo__button {
+  color: #FEFEFE;
+}
+
+.dark .demo__button,
+.dark .demo__link {
+  background-color: #444;
+}
